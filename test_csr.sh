@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file="./results_csr.txt"
+filename="./results_csr_mac.txt"
 [ -f $file ] && rm $file
 touch $file
 
@@ -10,9 +10,11 @@ SYSTEM_NAME=$(uname)
 if [[ $SYSTEM_NAME -eq "Darwin" ]]
 then
     system_profiler SPSoftwareDataType SPHardwareDataType
+    system_profiler SPSoftwareDataType SPHardwareDataType >> $filename
 elif [[ $SYSTEM_NAME -eq "Linux" ]]
 then 
     lshw -short
+    lshw -short >> $filename
 else
     echo "Works on two system Linux and Mac."
     exit 1;
@@ -28,6 +30,6 @@ do
     echo "${file} executing..."
     for i in {1..8}
     do
-        ./chapter $file $i >> results_csr.txt
+        ./chapter $file $i >> $filename
     done
 done

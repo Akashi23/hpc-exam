@@ -44,6 +44,7 @@ struct Matrix read_matrix_file(char *filename);
 double *generate_vector(int nums);
 double *init_result_vector(int nums);
 double *multiply_vector_to_matrix_csr(double *vector, struct Matrix matrix, double *result);
+double *multiply_vector_to_matrix_without_algo(double *vector, struct Matrix matrix, double *result);
 void print_vector_to_stdout(double *vector, int nums);
 void print_matrix_to_stdout(double **matrix, int rows, int columns);
 
@@ -66,10 +67,16 @@ int main(int argc, char *argv[])
    // print_vector_to_stdout(vec, matrixDetails.rows);
 
    double start = omp_get_wtime();
-   multiply_vector_to_matrix_csr(vec, matrixDetails, result_csr);
+   multiply_vector_to_matrix_without_algo(vec, matrixDetails, result_csr);
    double finish = omp_get_wtime();
 
-   printf("Elapsed time = %e seconds\n\n", finish - start);
+   printf("Elapsed time for simple multi = %e seconds\n", finish - start);
+
+   start = omp_get_wtime();
+   multiply_vector_to_matrix_csr(vec, matrixDetails, result_csr);
+   finish = omp_get_wtime();
+
+   printf("Elapsed time for csr = %e seconds\n\n", finish - start);
 
    // print_vector_to_stdout(vectorMultiplied, matrixDetails.rows);
 
@@ -110,6 +117,24 @@ double *multiply_vector_to_matrix_csr(double *vector, struct Matrix matrix, doub
       for (j = 0; j < matrix.columns; j++)
       {
          result[matrix.rowsWithoutZeros[i]] += vector[matrix.rowsWithoutZeros[i]] * matrix.matrix[matrix.rowsWithoutZeros[i]][j];
+      }
+   }
+
+   return result;
+}
+
+double *multiply_vector_to_matrix_without_algo(double *vector, struct Matrix matrix, double *result)
+{
+   int i, j;
+   size_t nRowsWithoutZeros = sizeof(matrix.rowsWithoutZeros) / sizeof(matrix.rowsWithoutZeros[0]);
+#pragma omp parallel num_threads(thread_count) default(none) \
+    shared(matrix, vector, result, nRowsWithoutZeros) private(i, j)
+   for (i = 0; i < nRowsWithoutZeros; i++)
+   {
+#pragma omp for schedule(static, 1)
+      for (j = 0; j < matrix.columns; j++)
+      {
+         result[i] += vector[i] * matrix.matrix[i][j];
       }
    }
 

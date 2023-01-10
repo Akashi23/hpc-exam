@@ -1,0 +1,415 @@
+Software:
+
+    System Software Overview:
+
+      System Version: macOS 13.0 (22A380)
+      Kernel Version: Darwin 22.1.0
+      Boot Volume: Macintosh HD
+      Boot Mode: Normal
+      Computer Name: Diniyar’s MacBook Air
+      User Name: Diniyar Zhagparov (diniyarzhagparov)
+      Secure Virtual Memory: Enabled
+      System Integrity Protection: Enabled
+      Time since boot: 17 days, 4 hours, 37 minutes
+
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Air
+      Model Identifier: MacBookAir10,1
+      Model Number: Z1240004PRU/A
+      Chip: Apple M1
+      Total Number of Cores: 8 (4 performance and 4 efficiency)
+      Memory: 16 GB
+      System Firmware Version: 8419.41.10
+      OS Loader Version: 8419.41.10
+      Serial Number (system): C02H61DVQ6LR
+      Hardware UUID: 9569F63E-B780-51F6-99A8-3F9B935E5AD7
+      Provisioning UDID: 00008103-001978992E7B001E
+      Activation Lock Status: Disabled
+
+
+name matrix = 1138_bus.mtx
+thread count = 1
+matrix rows = 1139
+matrix columns = 1139
+Elapsed time for simple multi = 2.199993e-05 seconds
+Elapsed time for csr = 1.500011e-05 seconds
+
+
+name matrix = 1138_bus.mtx
+thread count = 2
+matrix rows = 1139
+matrix columns = 1139
+Elapsed time for simple multi = 7.800013e-05 seconds
+Elapsed time for csr = 3.600004e-05 seconds
+
+
+name matrix = 1138_bus.mtx
+thread count = 3
+matrix rows = 1139
+matrix columns = 1139
+Elapsed time for simple multi = 1.130002e-04 seconds
+Elapsed time for csr = 5.499995e-05 seconds
+
+
+name matrix = 1138_bus.mtx
+thread count = 4
+matrix rows = 1139
+matrix columns = 1139
+Elapsed time for simple multi = 1.299998e-04 seconds
+Elapsed time for csr = 5.499995e-05 seconds
+
+
+name matrix = 1138_bus.mtx
+thread count = 5
+matrix rows = 1139
+matrix columns = 1139
+Elapsed time for simple multi = 2.520001e-04 seconds
+Elapsed time for csr = 9.400002e-05 seconds
+
+
+name matrix = 1138_bus.mtx
+thread count = 6
+matrix rows = 1139
+matrix columns = 1139
+Elapsed time for simple multi = 1.560000e-04 seconds
+Elapsed time for csr = 8.899998e-05 seconds
+
+
+name matrix = 1138_bus.mtx
+thread count = 7
+matrix rows = 1139
+matrix columns = 1139
+Elapsed time for simple multi = 2.289999e-04 seconds
+Elapsed time for csr = 1.560000e-04 seconds
+
+
+name matrix = 1138_bus.mtx
+thread count = 8
+matrix rows = 1139
+matrix columns = 1139
+Elapsed time for simple multi = 1.980001e-04 seconds
+Elapsed time for csr = 1.120002e-04 seconds
+
+
+name matrix = af23560.mtx
+thread count = 1
+matrix rows = 23561
+matrix columns = 23561
+Elapsed time for simple multi = 2.830001e-04 seconds
+Elapsed time for csr = 3.000000e-04 seconds
+
+
+name matrix = af23560.mtx
+thread count = 2
+matrix rows = 23561
+matrix columns = 23561
+Elapsed time for simple multi = 2.319999e-04 seconds
+Elapsed time for csr = 2.030001e-04 seconds
+
+
+name matrix = af23560.mtx
+thread count = 3
+matrix rows = 23561
+matrix columns = 23561
+Elapsed time for simple multi = 2.120002e-04 seconds
+Elapsed time for csr = 1.800002e-04 seconds
+
+
+name matrix = af23560.mtx
+thread count = 4
+matrix rows = 23561
+matrix columns = 23561
+Elapsed time for simple multi = 2.220001e-04 seconds
+Elapsed time for csr = 1.579998e-04 seconds
+
+
+name matrix = af23560.mtx
+thread count = 5
+matrix rows = 23561
+matrix columns = 23561
+Elapsed time for simple multi = 3.259999e-04 seconds
+Elapsed time for csr = 2.090000e-04 seconds
+
+
+name matrix = af23560.mtx
+thread count = 6
+matrix rows = 23561
+matrix columns = 23561
+Elapsed time for simple multi = 3.209999e-04 seconds
+Elapsed time for csr = 2.320001e-04 seconds
+
+
+name matrix = af23560.mtx
+thread count = 7
+matrix rows = 23561
+matrix columns = 23561
+Elapsed time for simple multi = 3.150001e-04 seconds
+Elapsed time for csr = 2.239998e-04 seconds
+
+
+name matrix = af23560.mtx
+thread count = 8
+matrix rows = 23561
+matrix columns = 23561
+Elapsed time for simple multi = 3.380000e-04 seconds
+Elapsed time for csr = 2.450000e-04 seconds
+
+
+name matrix = airfoil_2d.mtx
+thread count = 1
+matrix rows = 14215
+matrix columns = 14215
+Elapsed time for simple multi = 1.790000e-04 seconds
+Elapsed time for csr = 2.030001e-04 seconds
+
+
+name matrix = airfoil_2d.mtx
+thread count = 2
+matrix rows = 14215
+matrix columns = 14215
+Elapsed time for simple multi = 1.800000e-04 seconds
+Elapsed time for csr = 1.320001e-04 seconds
+
+
+name matrix = airfoil_2d.mtx
+thread count = 3
+matrix rows = 14215
+matrix columns = 14215
+Elapsed time for simple multi = 1.910001e-04 seconds
+Elapsed time for csr = 1.280000e-04 seconds
+
+
+name matrix = airfoil_2d.mtx
+thread count = 4
+matrix rows = 14215
+matrix columns = 14215
+Elapsed time for simple multi = 2.280001e-04 seconds
+Elapsed time for csr = 1.250000e-04 seconds
+
+
+name matrix = airfoil_2d.mtx
+thread count = 5
+matrix rows = 14215
+matrix columns = 14215
+Elapsed time for simple multi = 2.750000e-04 seconds
+Elapsed time for csr = 1.999999e-04 seconds
+
+
+name matrix = airfoil_2d.mtx
+thread count = 6
+matrix rows = 14215
+matrix columns = 14215
+Elapsed time for simple multi = 2.810000e-04 seconds
+Elapsed time for csr = 2.100000e-04 seconds
+
+
+name matrix = airfoil_2d.mtx
+thread count = 7
+matrix rows = 14215
+matrix columns = 14215
+Elapsed time for simple multi = 3.310000e-04 seconds
+Elapsed time for csr = 2.080000e-04 seconds
+
+
+name matrix = airfoil_2d.mtx
+thread count = 8
+matrix rows = 14215
+matrix columns = 14215
+Elapsed time for simple multi = 3.400000e-04 seconds
+Elapsed time for csr = 2.360002e-04 seconds
+
+
+name matrix = bcsstk25.mtx
+thread count = 1
+matrix rows = 15440
+matrix columns = 15440
+Elapsed time for simple multi = 1.950001e-04 seconds
+Elapsed time for csr = 1.980001e-04 seconds
+
+
+name matrix = bcsstk25.mtx
+thread count = 2
+matrix rows = 15440
+matrix columns = 15440
+Elapsed time for simple multi = 1.950001e-04 seconds
+Elapsed time for csr = 1.490000e-04 seconds
+
+
+name matrix = bcsstk25.mtx
+thread count = 3
+matrix rows = 15440
+matrix columns = 15440
+Elapsed time for simple multi = 1.700001e-04 seconds
+Elapsed time for csr = 1.569998e-04 seconds
+
+
+name matrix = bcsstk25.mtx
+thread count = 4
+matrix rows = 15440
+matrix columns = 15440
+Elapsed time for simple multi = 2.379999e-04 seconds
+Elapsed time for csr = 1.850000e-04 seconds
+
+
+name matrix = bcsstk25.mtx
+thread count = 5
+matrix rows = 15440
+matrix columns = 15440
+Elapsed time for simple multi = 3.070000e-04 seconds
+Elapsed time for csr = 2.080000e-04 seconds
+
+
+name matrix = bcsstk25.mtx
+thread count = 6
+matrix rows = 15440
+matrix columns = 15440
+Elapsed time for simple multi = 2.920001e-04 seconds
+Elapsed time for csr = 2.250001e-04 seconds
+
+
+name matrix = bcsstk25.mtx
+thread count = 7
+matrix rows = 15440
+matrix columns = 15440
+Elapsed time for simple multi = 3.350000e-04 seconds
+Elapsed time for csr = 2.329999e-04 seconds
+
+
+name matrix = bcsstk25.mtx
+thread count = 8
+matrix rows = 15440
+matrix columns = 15440
+Elapsed time for simple multi = 3.070000e-04 seconds
+Elapsed time for csr = 2.329999e-04 seconds
+
+
+name matrix = c-58.mtx
+thread count = 1
+matrix rows = 37596
+matrix columns = 37596
+Elapsed time for simple multi = 4.430001e-04 seconds
+Elapsed time for csr = 5.089999e-04 seconds
+
+
+name matrix = c-58.mtx
+thread count = 2
+matrix rows = 37596
+matrix columns = 37596
+Elapsed time for simple multi = 3.290002e-04 seconds
+Elapsed time for csr = 3.679998e-04 seconds
+
+
+name matrix = c-58.mtx
+thread count = 3
+matrix rows = 37596
+matrix columns = 37596
+Elapsed time for simple multi = 3.380000e-04 seconds
+Elapsed time for csr = 2.870001e-04 seconds
+
+
+name matrix = c-58.mtx
+thread count = 4
+matrix rows = 37596
+matrix columns = 37596
+Elapsed time for simple multi = 2.820001e-04 seconds
+Elapsed time for csr = 2.480000e-04 seconds
+
+
+name matrix = c-58.mtx
+thread count = 5
+matrix rows = 37596
+matrix columns = 37596
+Elapsed time for simple multi = 4.830002e-04 seconds
+Elapsed time for csr = 3.709998e-04 seconds
+
+
+name matrix = c-58.mtx
+thread count = 6
+matrix rows = 37596
+matrix columns = 37596
+Elapsed time for simple multi = 3.980000e-04 seconds
+Elapsed time for csr = 3.899999e-04 seconds
+
+
+name matrix = c-58.mtx
+thread count = 7
+matrix rows = 37596
+matrix columns = 37596
+Elapsed time for simple multi = 3.809999e-04 seconds
+Elapsed time for csr = 3.360000e-04 seconds
+
+
+name matrix = c-58.mtx
+thread count = 8
+matrix rows = 37596
+matrix columns = 37596
+Elapsed time for simple multi = 3.740001e-04 seconds
+Elapsed time for csr = 3.150001e-04 seconds
+
+
+name matrix = cavity22.mtx
+thread count = 1
+matrix rows = 4563
+matrix columns = 4563
+Elapsed time for simple multi = 7.300009e-05 seconds
+Elapsed time for csr = 5.899998e-05 seconds
+
+
+name matrix = cavity22.mtx
+thread count = 2
+matrix rows = 4563
+matrix columns = 4563
+Elapsed time for simple multi = 1.060001e-04 seconds
+Elapsed time for csr = 6.599980e-05 seconds
+
+
+name matrix = cavity22.mtx
+thread count = 3
+matrix rows = 4563
+matrix columns = 4563
+Elapsed time for simple multi = 1.310001e-04 seconds
+Elapsed time for csr = 6.900006e-05 seconds
+
+
+name matrix = cavity22.mtx
+thread count = 4
+matrix rows = 4563
+matrix columns = 4563
+Elapsed time for simple multi = 1.540000e-04 seconds
+Elapsed time for csr = 8.199993e-05 seconds
+
+
+name matrix = cavity22.mtx
+thread count = 5
+matrix rows = 4563
+matrix columns = 4563
+Elapsed time for simple multi = 1.909998e-04 seconds
+Elapsed time for csr = 1.630001e-04 seconds
+
+
+name matrix = cavity22.mtx
+thread count = 6
+matrix rows = 4563
+matrix columns = 4563
+Elapsed time for simple multi = 2.589999e-04 seconds
+Elapsed time for csr = 1.390001e-04 seconds
+
+
+name matrix = cavity22.mtx
+thread count = 7
+matrix rows = 4563
+matrix columns = 4563
+Elapsed time for simple multi = 2.959999e-04 seconds
+Elapsed time for csr = 1.600001e-04 seconds
+
+
+name matrix = cavity22.mtx
+thread count = 8
+matrix rows = 4563
+matrix columns = 4563
+Elapsed time for simple multi = 3.760001e-04 seconds
+Elapsed time for csr = 3.599999e-04 seconds
+
