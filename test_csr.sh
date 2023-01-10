@@ -1,22 +1,24 @@
 #!/bin/bash
 
-filename="./results_csr_mac.txt"
-[ -f $file ] && rm $file
-touch $file
+filename="./results_csr_linux.txt"
+[ -f $filename ] && rm $filename
+touch $filename
 
 echo "Hardware info:"
 SYSTEM_NAME=$(uname)
 
-if [[ $SYSTEM_NAME -eq "Darwin" ]]
+echo $SYSTEM_NAME
+
+if [[ $SYSTEM_NAME = "Darwin" ]]
 then
     system_profiler SPSoftwareDataType SPHardwareDataType
     system_profiler SPSoftwareDataType SPHardwareDataType >> $filename
-elif [[ $SYSTEM_NAME -eq "Linux" ]]
+elif [[ $SYSTEM_NAME = "Linux" ]]
 then 
     lshw -short
     lshw -short >> $filename
 else
-    echo "Works on two system Linux and Mac."
+    echo "You're not Linux or Mac user."
     exit 1;
 fi
 
@@ -31,5 +33,6 @@ do
     for i in {1..8}
     do
         ./chapter $file $i >> $filename
+        sleep 1
     done
 done

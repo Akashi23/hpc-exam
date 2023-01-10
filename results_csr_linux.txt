@@ -1,0 +1,138 @@
+H/W path         Device        Class          Description
+=========================================================
+                               system         Computer
+/0                             bus            Motherboard
+/0/0                           memory         15GiB System memory
+/0/1                           processor      11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+/0/100                         bridge         Intel Corporation
+/0/100/2                       display        Intel Corporation
+/0/100/4                       generic        Intel Corporation
+/0/100/a                       generic        Intel Corporation
+/0/100/d                       bus            Intel Corporation
+/0/100/e                       storage        Volume Management Device NVMe RAID Controller
+/0/100/14                      bus            Intel Corporation
+/0/100/14.2                    memory         RAM memory
+/0/100/14.3      wlp0s20f3     network        Intel Corporation
+/0/100/15                      bus            Intel Corporation
+/0/100/16                      communication  Intel Corporation
+/0/100/1c                      bridge         Intel Corporation
+/0/100/1c/0                    generic        RTS522A PCI Express Card Reader
+/0/100/1c.7                    bridge         Intel Corporation
+/0/100/1c.7/0    enp2s0        network        RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+/0/100/1d                      bridge         Intel Corporation
+/0/100/1d/0                    storage        Samsung Electronics Co Ltd
+/0/100/1d/0/0    /dev/nvme0    storage        SAMSUNG MZVLQ512HALU-000H1
+/0/100/1d/0/0/1  /dev/nvme0n1  disk           NVMe namespace
+/0/100/1f                      bridge         Intel Corporation
+/0/100/1f.3                    multimedia     Intel Corporation
+/0/100/1f.4                    bus            Intel Corporation
+/0/100/1f.5                    bus            Intel Corporation
+/0/2                           system         PnP device PNP0c02
+/0/3                           system         PnP device PNP0b00
+/0/4                           generic        PnP device INT3f0d
+/0/5                           generic        PnP device HPQ8002
+/0/6                           system         PnP device PNP0c02
+/0/7                           system         PnP device PNP0c02
+/0/8                           system         PnP device PNP0c02
+/0/9                           system         PnP device PNP0c02
+/0/a                           system         PnP device PNP0c02
+/0/b                           system         PnP device PNP0c02
+/1               vethfe0d4c9   network        Ethernet interface
+/2               veth3b9bd76   network        Ethernet interface
+/3               veth39f45e9   network        Ethernet interface
+
+name matrix = af23560.mtx
+thread count = 3
+matrix rows = 23561
+matrix columns = 23561
+Elapsed time for simple multi = 2.648779e-04 seconds
+Elapsed time for csr = 1.357980e-04 seconds
+
+
+name matrix = af23560.mtx
+thread count = 5
+matrix rows = 23561
+matrix columns = 23561
+Elapsed time for simple multi = 3.013390e-04 seconds
+Elapsed time for csr = 1.424809e-04 seconds
+
+
+name matrix = bcsstk25.mtx
+thread count = 1
+matrix rows = 15440
+matrix columns = 15440
+Elapsed time for simple multi = 8.013588e-05 seconds
+Elapsed time for csr = 1.298080e-04 seconds
+
+
+name matrix = c-58.mtx
+thread count = 6
+matrix rows = 37596
+matrix columns = 37596
+Elapsed time for simple multi = 3.614961e-04 seconds
+Elapsed time for csr = 2.548189e-04 seconds
+
+
+name matrix = cavity22.mtx
+thread count = 1
+matrix rows = 4563
+matrix columns = 4563
+Elapsed time for simple multi = 2.990779e-05 seconds
+Elapsed time for csr = 4.049903e-05 seconds
+
+
+name matrix = cavity22.mtx
+thread count = 2
+matrix rows = 4563
+matrix columns = 4563
+Elapsed time for simple multi = 1.396239e-04 seconds
+Elapsed time for csr = 2.919813e-05 seconds
+
+
+name matrix = cavity22.mtx
+thread count = 3
+matrix rows = 4563
+matrix columns = 4563
+Elapsed time for simple multi = 1.439222e-04 seconds
+Elapsed time for csr = 2.265093e-05 seconds
+
+
+name matrix = cavity22.mtx
+thread count = 4
+matrix rows = 4563
+matrix columns = 4563
+Elapsed time for simple multi = 1.983140e-04 seconds
+Elapsed time for csr = 2.231705e-05 seconds
+
+
+name matrix = cavity22.mtx
+thread count = 5
+matrix rows = 4563
+matrix columns = 4563
+Elapsed time for simple multi = 2.080519e-04 seconds
+Elapsed time for csr = 2.515595e-05 seconds
+
+
+name matrix = cavity22.mtx
+thread count = 6
+matrix rows = 4563
+matrix columns = 4563
+Elapsed time for simple multi = 1.378402e-04 seconds
+Elapsed time for csr = 3.764592e-05 seconds
+
+
+name matrix = cavity22.mtx
+thread count = 7
+matrix rows = 4563
+matrix columns = 4563
+Elapsed time for simple multi = 2.530499e-04 seconds
+Elapsed time for csr = 5.141296e-05 seconds
+
+
+name matrix = cavity22.mtx
+thread count = 8
+matrix rows = 4563
+matrix columns = 4563
+Elapsed time for simple multi = 3.581310e-04 seconds
+Elapsed time for csr = 5.123601e-05 seconds
+
